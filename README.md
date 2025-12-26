@@ -125,3 +125,22 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+
+## 🚀 New Project Setup (Organization Template)
+
+## Cloned project from organization repository using git clone (not degit)
+
+Removed original Git history to detach from template
+
+Remove-Item -Recurse -Force .git
+
+
+## Re-initialized project as a fresh repository
+
+git init
+git add .
+git commit -m "Initial Flexiti Studio portfolio"
+
+
+## Project is now an independent codebase ready for customization and deployment
+
